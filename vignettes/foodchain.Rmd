@@ -1,0 +1,23 @@
+---
+title: "foodchain"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{foodchain}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(foodchain)
+```
+
+## Description
+
+We begin to write what each module does.
