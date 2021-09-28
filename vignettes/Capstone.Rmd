@@ -1,0 +1,38 @@
+---
+title: "Capstone"
+author: "Andrei Stoian"
+date: "12/09/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+For the following six questions, consider your detailed case study report and the steps of the data analysis process that you followed when creating it: ask, prepare, process, analyze, share, and act.
+
+## Ask
+
+In the ask phase of your analysis, you wrote a clear statement of the business task. According to the Case Study Roadmap, this statement should 1) identify the specific problem you are trying to solve, and 2) consider key stakeholders. Take a moment to review your statement now. In what ways could you make it more effective at meeting these two requirements?
+
+## Prepare 
+
+In the prepare phase of your analysis, you described the data sources you used. According to the Case Study Roadmap, this description should include where the data is located and how it is organized. It should also consider issues with bias or credibility, problems with the data, and how you verified its integrity. Finally, your description should explain how the data helped you answer your questions. Take a moment to review your description now. What steps could you take to make it even more descriptive?
+
+
+## Process
+
+In the process phase of your analysis, you documented your data cleaning and manipulation. According to the Case Study Roadmap, this documentation should include a list of the tools you used and why you selected them. In addition, it was an opportunity to explain how you ensured your data’s integrity and confirmed that it was clean and ready to analyze. Take a moment to review your documentation now. How can you improve it in order to describe your cleaning and manipulation techniques even more thoroughly?
+
+## Analyze
+
+In the analyze phase of your analysis, you wrote a summary of your analysis. According to the Case Study Roadmap, this summary should discuss organizing and formatting your data. In addition, it should detail any surprises, trends, or relationships you discovered. Lastly, you should summarize how these insights helped you answer your questions. Take a moment to review your summary now. How can you improve it in order to highlight your analysis process in a more compelling way?
+
+## Share
+
+In the share phase of your analysis, you created data visualizations to support your key findings. According to the Case Study Roadmap, these visualizations should reflect your findings, data story, and audience — while keeping accessibility top of mind. Take a moment to review your visualizations now. Which one are you most proud of? And how can you apply your experiences during this course in order to improve the others?
+
+## Act
+
+In the act phase of your analysis, you provided recommendations based on the final conclusion from your analysis. You were also asked what additional data you could analyze to enhance your work. Take a moment to consider this question again now. Respond with at least two ideas that you did not include in your original report.
+

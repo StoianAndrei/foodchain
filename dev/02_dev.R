@@ -21,6 +21,7 @@ usethis::use_package( "dplyr" )
 ## Create a module infrastructure in R/
 golem::add_module( name = "plot_delete" ) # Name of the module
 golem::add_module( name = "name_of_module2" ) # Name of the module
+golem::add_module( name = "ui_select_batch" ) # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*

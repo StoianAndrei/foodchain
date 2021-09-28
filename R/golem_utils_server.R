@@ -62,3 +62,25 @@ drop_nulls <- function(x){
 rv <- shiny::reactiveValues
 rvtl <- shiny::reactiveValuesToList
 
+
+#' Processing data
+#' 
+#' @.data listed_beekeepers
+get_listed_beekeepers <- function(.data = NULL) 
+{
+  message("  Make sure you have the data loaded ", glimpse(.data))
+  if(.data != NULL){
+    code <- tibble::as_tibble(listed_beekeepers) %>% 
+      janitor::clean_names() %>% 
+      dplyr::mutate(listing_date = lubridate::dmy(listing_date),
+                    expiry_date  = lubridate::dmy(expiry_date )
+                    ) %>% 
+      filter(!is.na(physical_address)) %>%  
+      dplyr::mutate(name = str_trim(str_remove(name,"Limited"),"both")) %>% 
+      dplyr::mutate(town = str_extract(physical_address,"[A-Z]+$")) %>%
+      tidyte
+      dplyr::mutate(town = ifelse(is.na(town),yes = str_extract(physical_address,"[A-Z]+"),no = town)) %>% 
+      filter(!is.na(town)) 
+      
+  }
+}

@@ -57,7 +57,6 @@ golem::remove_favicon()
 ## Add helper functions ----
 golem::use_utils_ui()
 golem::use_utils_server()
-
 # You're now set! ----
 
 # go to dev/02_dev.R
